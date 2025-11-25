@@ -1,4 +1,24 @@
 baseURL = 'https://aydanmacgregor.github.io/blog/'
 languageCode = 'en-us'
-title = 'Aydans Blog'
+title = '0xAydan'
 theme = 're-terminal'
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "CTF"
+url = "/picoCtf/"
+weight = 2
+
+[[menu.main]]
+name = "Homelab"
+url = "/homelab/"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 4
