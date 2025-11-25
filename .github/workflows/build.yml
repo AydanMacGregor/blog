@@ -7,7 +7,7 @@ on: # Every push onto the main branch I want this workflow to be triggered
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
