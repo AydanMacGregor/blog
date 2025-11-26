@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = '0xAydan'
 theme = 're-terminal'
 
+[params.Logo]
+  logoText = "0xAydan"
+
 [[menu.main]]
 name = "Home"
 url = "/"
